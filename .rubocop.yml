@@ -1,0 +1,11 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+RSpec/MultipleExpectations:
+  Max: 2
+
+RSpec/DescribeClass:
+  Enabled: false

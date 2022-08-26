@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'request_helper'
 
 RSpec.describe 'API requests' do

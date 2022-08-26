@@ -1,9 +1,13 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem 'sinatra'
+source 'https://rubygems.org'
+
 gem 'puma'
+gem 'sinatra'
 
 group :test do
-  gem 'rspec'
   gem 'rack-test'
+  gem 'rspec'
+  gem 'rubocop'
+  gem 'rubocop-rspec'
 end
